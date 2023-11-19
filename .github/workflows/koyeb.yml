@@ -8,8 +8,8 @@ jobs:
       runs-on: ubuntu-latest
       name: "Build V2ray images"
       env:
-        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        DOCKER_USERNAME: niugiuxu7dcih
+        DOCKER_PASSWORD: VIU*@^DCU*tg9BOU9w653e7cvi97TTq54wxcUT&F
         DOCKERHUB_REPOSITORY: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_REPO }}:latest
 
       steps:
